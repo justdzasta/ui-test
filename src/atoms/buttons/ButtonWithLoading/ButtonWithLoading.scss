@@ -1,0 +1,131 @@
+.button {
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 2px 4px #0000004d;
+    border: none;
+    border-radius: 2px;
+    text-transform: uppercase;
+    position: relative;
+}
+
+.primary {
+    background-color: var(--btn-outline-border);
+    color: var(--txt-on-top);
+    &:hover {
+        background-color: var(--btn-primary-hover);
+    }
+    &:active {
+        background-color: var(--btn-primary-active);
+    }
+}
+
+.secondary {
+    background-color: var(--btn-secondary);
+    color: var(--btn-txt-secondary);
+    &:hover {
+        background-color: var(--btn-secondary-hover);
+    }
+    &:active {
+        background-color: var(--btn-secondary-active);
+    }
+}
+
+.danger {
+    background-color: var(--ui-danger);
+    color: var(--txt-on-top);
+    &:hover {
+        background-color: var(--btn-ui-danger-hover);
+    }
+    &:active {
+        background-color: var(--btn-ui-danger-active);
+    }
+}
+
+.live {
+    background-color: var(--btn-ui-live);
+    color: var(--txt-on-top);
+    &:hover {
+        background-color: var(--btn-ui-live-hover);
+    }
+    &:active {
+        background-color: var(--btn-ui-live-active);
+    }
+}
+
+.info{
+    background-color: var(--ui-info);
+    color: var(--txt-on-top);
+    &:hover {
+        background-color: var(--ui-info);
+    }
+    &:active {
+        background-color: var(--ui-info);
+    }
+}
+
+.warn{
+    background-color: var(--ui-warning);
+    color: var(--txt-on-top);
+    &:hover {
+        background-color: var(--ui-warning);
+    }
+    &:active {
+        background-color: var(--ui-warning);
+    }
+}
+
+.success{
+    background-color: var(--ui-success);
+    color: var(--txt-on-top);
+    &:hover {
+        background-color: var(--ui-success);
+    }
+    &:active {
+        background-color: var(--ui-success);
+    }
+}
+
+.large {
+    height: 40px;
+    font-size: 14px;
+    padding: 0 16px;
+}
+
+.medium {
+    height: 36px;
+    font-size: 14px;
+    padding: 0 16px;
+}
+
+.small {
+    height: 32px;
+    font-size: 12px;
+    padding: 0 12px;
+}
+
+.icon {
+    width: 16px;
+    height: 16px;
+}
+
+.icon-marg {
+    margin: 0 10px 0 0;
+}
+
+.disabled {
+    opacity: 0.5;
+    pointer-events: none;
+}
+
+.loading{
+    opacity: 0;
+}
+
+.icon-loading{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}

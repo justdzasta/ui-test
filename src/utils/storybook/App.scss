@@ -1,0 +1,351 @@
+.root {
+    display: flex;
+    flex-direction: row;
+    color: var(--txt-primary) !important;
+    background-color: var(--ui-bg-high) !important;
+
+    input:-webkit-autofill,
+    input:-webkit-autofill:hover,
+    input:-webkit-autofill:focus,
+    input:-webkit-autofill:active {
+        background: var(--ui-container-bg) !important;
+        -webkit-box-shadow: 0 0 0px 1000px var(--ui-container-bg) inset !important;
+        -webkit-text-fill-color: var(--txt-primary) !important;
+    }
+
+    // Layout
+    --layout-gutter-width: 1rem;
+
+    // Colors
+    --color-white: white;
+    --color-black: black;
+    --color-warning: #ee4f47;
+    --color-backdrop: rgba(0, 0, 0, 0.3);
+
+    --color-gray-300: #f2f8fa;
+    --color-gray-500: #ecf2f4;
+    --color-gray-700: #d4dadc;
+    --color-gray-800: #969c9e;
+    --color-gray-900: #32383a;
+
+    --color-blue-300: #4bb7c6;
+    --color-blue-500: #2aa5b5;
+    --color-blue-700: #0994a8;
+
+    //&.pro {
+    // Intentions
+    --color-primary-light: var(--color-blue-300);
+    --color-primary-main: var(--color-blue-500);
+    --color-primary-dark: var(--color-blue-700);
+    --color-primary-contrast: var(--color-white);
+
+    --color-background-light: var(--color-gray-300);
+    --color-background-main: var(--color-gray-500);
+    --color-background-dark: var(--color-gray-700);
+    --color-background-contrast: var(--color-black);
+
+    --color-text-dark: #444;
+    //}
+}
+
+input::placeholder,
+input::-webkit-input-placeholder,
+textarea::placeholder,
+textarea::-webkit-input-placeholder {
+    color: var(--inp-placeholder) !important;
+}
+
+.theme-button {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+}
+
+.jedi {
+    // LAYOUT
+    --ui-container-bg: #ffffff;
+    --ui-container-bg-low: #f6fafc;
+    --ui-container-bg-bottom: #f2f8fa;
+    --ui-bg-high: #ecf2f4;
+    --ui-bg: #d2d6d8;
+
+    --ui-border-bright: #ffffff;
+    --ui-border: #ffffff;
+    --ui-border-rgba: rgba(50, 54, 56, 0.2);
+    --ui-border-dark: #ffffff;
+
+    --ui-divider-bright: #e6ecee;
+    --ui-divider: #dce2e4;
+    --ui-divider-dark: #c8ced0;
+    --ui-scroll: #b4b8ba;
+    --ui-scroll-bg: #969c9e;
+    --ui-shadow: #000000;
+    --ui-dialog-mask: rgba(0, 0, 0, 0.6);
+    --ui-mask: rgba(236, 240, 242, 0.6);
+    --ui-scroll-bg: #e0e0e0;
+    --ui-placeholder: #efefef;
+
+    // TYPOGRAPHY
+    --txt-primary: #323638;
+    --txt-secondary: #64686a;
+    --txt-lighter: #646a6c;
+    --txt-tertiary: #969a9c;
+    --txt-contrast: #14181a;
+    --txt-on-top: #ffffff;
+
+    // BUTTONS/INTERACTIONS
+    --btn-primary: #2aa5b5;
+    --btn-primary-hover: #0994a8;
+    --btn-primary-active: #026f7f;
+    --btn-secondary: #ecf2f4;
+    --btn-secondary-hover: #e6eaec;
+    --btn-secondary-active: #dce2e4;
+    --btn-outline-border: #2aa5b5;
+    --btn-outline-bg-hover: #d4edf0;
+    --btn-outline-bg-active: #afe3eb;
+    --btn-outline-secondary-border: #aaaeb0;
+    --btn-outline-secondary-bg-hover: #d4edf0;
+    --btn-outline-secondary-bg-active: #afe3eb;
+    --btn-txt: #2aa5b5;
+    --btn-txt-hover: #0994a8;
+    --btn-txt-active: #026f7f;
+    --btn-txt-secondary: #969a9c;
+    --btn-txt-secondary-hover: #e6eaec;
+    --btn-txt-secondary-active: #dce2e4;
+    --btn-ui-danger: #FF6666;
+    --btn-ui-danger-bg: #FFE8E8;
+    --btn-ui-danger-hover: #D54C4C;
+    --btn-ui-danger-active: #B73232;
+    --btn-ui-live: #E61919;
+    --btn-ui-live-bg: #FBDDDD;
+    --btn-ui-live-hover: #BC0000;
+    --btn-ui-live-active: #9A0000;
+
+    //INTERACTIONS (menu / list)
+    --int-active: #2aa5b5;
+    --int-active-bg: rgba(42, 165, 181, 0.08);
+    --int-hover: rgba(175, 227, 235, 0.15);
+    --int-tooltip: rgba(40, 44, 46, 0.9);
+
+    // FORMS
+    --inp-bg: #ffffff;
+    --inp-bg-disabled: rgba(255, 255, 255, 0.4);
+    --inp-border: #c8ced0;
+    --inp-border-disabled: rgba(236, 240, 242, 0.4);
+    --inp-border-active: #969a9c;
+    --inp-addon: #969a9c;
+    --inp-addon-bg: #ecf2f4;
+    --inp-border-inline-active: #77cedb;
+
+    // SEMANTIC COLOURS
+    --ui-info: #3e8acd;
+    --ui-info-bg: #e2eef8;
+    --ui-success: #77b84b;
+    --ui-success-bg: #ebf4e4;
+    --ui-warning: #fea63e;
+    --ui-warning-bg: #fff2e2;
+    --ui-danger: #ff6666;
+    --ui-danger-bg: #ffe8e8;
+    --ui-live: #e61919;
+    --ui-live-bg: #fbdddd;
+    --ui-info-secondary: #a8adaf;
+    --ui-info-secondary-bg: #eff0f1;
+}
+
+.sith {
+    // LAYOUT
+    --ui-container-bg: #323638;
+    --ui-container-bg-low: #2d3133;
+    --ui-container-bg-bottom: #282c2e;
+    --ui-bg-high: #1e2224;
+    --ui-bg: #14181a;
+
+    --ui-border-bright: #3c4042;
+    --ui-border: #323638;
+    --ui-border-rgba: rgba(220, 224, 226, 0.3);
+    --ui-border-dark: #282c2e;
+
+    --ui-divider-bright: #64686a;
+    --ui-divider: #464c4e;
+    --ui-divider-dark: #323638;
+    --ui-scroll: #787c7e;
+    --ui-scroll-bg: #3c4244;
+    --ui-shadow: #000000;
+    --ui-dialog-mask: rgba(0, 0, 0, 0.6);
+    --ui-mask: rgba(20, 24, 26, 0.6);
+    --ui-scroll-bg: #303436;
+    --ui-placeholder: #969a9c;
+
+    // TYPOGRAPHY
+    --txt-primary: #dce0e2;
+    --txt-lighter: #646a6c;
+    --txt-secondary: #aaaeb0;
+    --txt-tertiary: #969a9c;
+    --txt-contrast: #ecf2f4;
+    --txt-on-top: #ffffff;
+
+    // BUTTONS/INTERACTIONS
+    --btn-primary: #0994a8;
+    --btn-primary-hover: #026f7f;
+    --btn-primary-active: #005460;
+    --btn-secondary: #3c4042;
+    --btn-secondary-hover: #464a4c;
+    --btn-secondary-active: #282c2e;
+    --btn-outline-border: #2aa5b5;
+    --btn-outline-bg-hover: #005460;
+    --btn-outline-bg-active: #026f7f;
+    --btn-outline-secondary-border: #2aa5b5;
+    --btn-outline-secondary-bg-hover: #005460;
+    --btn-outline-secondary-bg-active: #026f7f;
+    --btn-txt: #0994a8;
+    --btn-txt-hover: #026f7f;
+    --btn-txt-active: #005460;
+    --btn-txt-secondary: #969a9c;
+    --btn-txt-secondary-hover: #464a4c;
+    --btn-txt-secondary-active: #282c2e;
+    --btn-ui-danger: #D66363;
+    --btn-ui-danger-bg: #4B3D3F;
+    --btn-ui-danger-hover: #B53D3D;
+    --btn-ui-danger-active: #9E2C2C;
+    --btn-ui-live: #BF4848;
+    --btn-ui-live-bg: #48383A;
+    --btn-ui-live-hover: #9B2C2C;
+    --btn-ui-live-active: #861C1C;
+
+    //INTERACTIONS (menu / list)
+    --int-active: #4bb7c6;
+    --int-active-bg: rgba(9, 148, 168, 0.15);
+    --int-hover: rgba(2, 111, 127, 0.15);
+    --int-tooltip: rgba(24, 30, 32, 0.9);
+
+    // FORMS
+    --inp-bg: #323638;
+    --inp-bg-disabled: #282c2e;
+    --inp-border: #464c4e;
+    --inp-border-disabled: #323638;
+    --inp-border-active: #969a9c;
+    --inp-addon: #969a9c;
+    --inp-addon-bg: #3c4042;
+    --inp-border-inline-active: #2aa5b5;
+
+    // SEMANTIC COLOURS
+    --ui-info: #65a2d7;
+    --ui-info-bg: #2b3a46;
+    --ui-success: #77b84b;
+    --ui-success-bg: #3d4a3b;
+    --ui-warning: #c98738;
+    --ui-warning-bg: #494238;
+    --ui-danger: #d66363;
+    --ui-danger-bg: #4b3d3f;
+    --ui-live: #bf4848;
+    --ui-live-bg: #48383a;
+    --ui-info-secondary: #969a9c;
+    --ui-info-secondary-bg: #3c4244;
+}
+
+@mixin deleteAnimation($class-name, $container-height, $animation-time) {
+    #{$class-name} {
+        animation: fadeOut $animation-time;
+        overflow: auto;
+
+        &::-webkit-scrollbar {
+            width: 0;
+            background: transparent;
+        }
+    }
+
+    @keyframes fadeOut {
+        from {
+            height: 53px;
+            opacity: 1;
+        }
+
+        to {
+            padding: 0;
+            height: 0px;
+            opacity: 0;
+        }
+    }
+}
+
+@mixin fancy-scrollbar() {
+    &::-webkit-scrollbar {
+        width: 6px;
+        height: 6px;
+    }
+
+    &::-webkit-scrollbar-button {
+        width: 0px;
+        height: 0px;
+    }
+
+    &::-webkit-scrollbar-thumb {
+        background: #b9b9b9;
+        width: 6px;
+        border-radius: 12px;
+        border: none;
+        background-clip: padding-box;
+    }
+
+    &::-webkit-scrollbar-thumb:hover {
+        background: #c8cecf;
+    }
+
+    &::-webkit-scrollbar-thumb:active {
+        background: #b9b9b9;
+    }
+
+    &::-webkit-scrollbar-track {
+        background: var(--ui-scroll-bg);
+        border-radius: 6px;
+    }
+
+    &::-webkit-scrollbar-track:hover {
+        background: var(--ui-scroll-bg);
+    }
+
+    &::-webkit-scrollbar-track:active {
+        background: var(--ui-scroll-bg);
+    }
+
+    &::-webkit-scrollbar-corner {
+        background: transparent;
+    }
+
+    scrollbar-width: thin;
+    scrollbar-color: #b9b9b9 var(--ui-scroll-bg);
+}
+
+// directory
+$roboto-npm-webfont-dir: "https://dqktq9708cqse.cloudfront.net/fonts/Roboto" !default;
+
+// font"s array configuration
+$roboto-npm-webfont-fonts: (
+    ("Roboto Thin", "Roboto-Thin", "robotothin", 100, normal),
+    ("Roboto Thin Italic", "Roboto-ThinItalic", "robotothinitalic", 100, italic),
+    ("Roboto Light", "Roboto-Light", "robotolight", 300, normal),
+    ("Roboto Light Italic", "Roboto-LightItalic", "robotolightitalic", 300, italic),
+    ("Roboto", "Roboto-Regular", "roboto", 400, normal),
+    ("Roboto Italic", "Roboto-RegularItalic", "robotoitalic", 400, italic),
+    ("Roboto Medium", "Roboto-Medium", "robotomedium", 500, normal),
+    ("Roboto Medium Italic", "Roboto-MediumItalic", "robotomediumitalic", 500, italic),
+    ("Roboto Bold", "Roboto-Bold", "robotobold", 700, normal),
+    ("Roboto Bold Italic", "Roboto-BoldItalic", "robotobolditalic", 700, italic),
+    ("Roboto Black", "Roboto-Black", "robotoblack", 900, normal),
+    ("Roboto Black Italic", "Roboto-BlackItalic", "robotoblackitalic", 900, italic)
+);
+
+@each $font in $roboto-npm-webfont-fonts {
+    $name: nth($font, 1);
+    $alias: nth($font, 2);
+    $file: nth($font, 3);
+
+    @font-face {
+        font-family: "Roboto";
+        src: local("#{$name}"), local("#{$alias}"), url("#{$roboto-npm-webfont-dir}/#{$file}.woff2") format("woff2"),
+            url("#{$roboto-npm-webfont-dir}/#{$file}.woff") format("woff"),
+            url("#{$roboto-npm-webfont-dir}/#{$file}.ttf") format("truetype");
+        font-weight: nth($font, 4);
+        font-style: nth($font, 5);
+    }
+}

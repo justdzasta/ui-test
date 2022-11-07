@@ -1,0 +1,89 @@
+<!-- Tooltip.stories.mdx -->
+
+import { Meta } from "@storybook/addon-docs";
+import Button from "../buttons/Button/Button";
+import TextButton from "../buttons/TextButton/TextButton";
+import ButtonWithLoading from "../buttons/ButtonWithLoading/ButtonWithLoading.tsx";
+
+import StoryMdxWrapper from "../../utils/storybook/StoryMdxWrapper";
+
+<Meta title="components/atoms/buttons/buttons" />
+
+# Buttons
+
+## Mockup
+
+https://xd.adobe.com/view/f9a7ca51-7f94-4bbc-9213-83b53cba9367-acf4/
+
+## Properties
+
+| Property |  Type  |           Desription | Default |
+| -------- | :----: | -------------------: | ------: |
+| type     |  Enum  |   primary, secondary | Primary |
+| size     |  Enum  | large, medium, small |   large |
+| icon     | String |         Name of icon |      "" |
+
+## Overview
+
+### Button Primary
+
+<StoryMdxWrapper>
+    <Button size="large">large</Button>
+    <Button size="medium">medium</Button>
+    <Button size="small">small</Button>
+</StoryMdxWrapper>
+
+`<Button size="large">large</Button> <Button size="medium">medium</Button> <Button size="small">small</Button>`
+
+### Button Secondary
+
+<StoryMdxWrapper>
+    <Button type="secondary" size="large">
+        large
+    </Button>
+    <Button type="secondary" size="medium">
+        medium
+    </Button>
+    <Button type="secondary" size="small">
+        small
+    </Button>
+</StoryMdxWrapper>
+
+`<Button type="secondary" size="large">large</Button> <Button type="secondary" size="medium">medium</Button> <Button type="secondary" size="small">small</Button>`
+
+### ButtonWithLoading
+
+<StoryMdxWrapper>
+    <ButtonWithLoading loading={true}> Button </ButtonWithLoading>
+</StoryMdxWrapper>
+<StoryMdxWrapper>
+    <ButtonWithLoading loading={false}> Button </ButtonWithLoading>
+</StoryMdxWrapper>
+
+`<ButtonWithLoading loading={true}> Button </ButtonWithLoading> <ButtonWithLoading loading={false}> Button </ButtonWithLoading>`
+
+### TextButton Primary
+
+<StoryMdxWrapper>
+    <TextButton size="large">large</TextButton>
+    <TextButton size="medium">medium</TextButton>
+    <TextButton size="small">small</TextButton>
+</StoryMdxWrapper>
+
+`<TextButton size="large">large</TextButton> <TextButton size="medium">medium</TextButton> <TextButton size="small">small</TextButton>`
+
+### TextButton Secondary
+
+<StoryMdxWrapper>
+    <TextButton type="secondary" size="large">
+        large
+    </TextButton>
+    <TextButton type="secondary" size="medium">
+        medium
+    </TextButton>
+    <TextButton type="secondary" size="small">
+        small
+    </TextButton>
+</StoryMdxWrapper>
+
+`<TextButton type="secondary" size="large">large</TextButton> <TextButton type="secondary" size="medium">medium</TextButton> <TextButton type="secondary" size="small">small</TextButton>`

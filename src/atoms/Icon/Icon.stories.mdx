@@ -1,0 +1,29 @@
+<!-- Tooltip.stories.mdx -->
+
+import { Meta } from "@storybook/addon-docs";
+import Icon from "../Icon/Icon.tsx";
+
+import StoryMdxWrapper from "../../utils/storybook/StoryMdxWrapper";
+
+<Meta title="components/atoms/Icon/Icon" />
+
+# Icon
+
+## Properties
+
+| Property  |                Type                | Desription |                Default |
+| --------- | :--------------------------------: | ---------: | ---------------------: |
+| name      |               string               |            | "icon_placeholder.svg" |
+| className |               string               |            |                        |
+| disabled  |              boolean               |            |                        |
+| onClick   | (event: React.MouseEvent) => void; |            |                        |
+
+## Overview
+
+### Icon
+
+<StoryMdxWrapper>
+    <Icon name="trash" />
+</StoryMdxWrapper>
+
+`<Icon name="trash" />`

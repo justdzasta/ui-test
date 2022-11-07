@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="11.125" height="9.849" viewBox="0 0 11.125 9.849">
+  <g id="warnings_yellow" transform="translate(-1.834 -3)">
+    <g id="grid_1_" transform="translate(1.834 3)">
+      <path id="Path_2289" data-name="Path 2289" d="M6.7,3.4,1.941,11.651a.8.8,0,0,0,.692,1.2H12.16a.8.8,0,0,0,.692-1.2L8.088,3.4A.8.8,0,0,0,6.7,3.4Z" transform="translate(-1.834 -3)" fill="#ff6665"/>
+    </g>
+    <g id="trim_area_1_" transform="translate(6.803 5.353)">
+      <circle id="Ellipse_64" data-name="Ellipse 64" cx="0.593" cy="0.593" r="0.593" transform="translate(0 4.997)" fill="#fff" stroke="#fff" stroke-width="0.5"/>
+      <path id="Path_2290" data-name="Path 2290" d="M11.625,11.208a.453.453,0,0,1-.453-.453v-3a.453.453,0,1,1,.907,0v3A.453.453,0,0,1,11.625,11.208Z" transform="translate(-11.032 -7.301)" fill="#fff" stroke="#fff" stroke-width="0.5"/>
+    </g>
+  </g>
+</svg>

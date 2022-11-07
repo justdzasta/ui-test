@@ -1,0 +1,10 @@
+<svg id="checkbox-big" xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12">
+  <g id="Ellipse_1_copy_10" data-name="Ellipse 1 copy 10" fill="none" stroke="#c8ced0" stroke-width="1">
+    <circle cx="6" cy="6" r="6" stroke="none"/>
+    <circle cx="6" cy="6" r="5.5" fill="none"/>
+  </g>
+  <g id="Group_1220" data-name="Group 1220">
+    <circle id="Ellipse_1_copy_10-2" data-name="Ellipse 1 copy 10" cx="6" cy="6" r="6" fill="#accc7e"/>
+    <path id="Shape_1" data-name="Shape 1" d="M292.889,669.476l1.268,1.268,2.778-2.776.983.983-2.776,2.776-.985.983-.983-.983-1.268-1.268Z" transform="translate(-288.977 -664.242)" fill="#f0f4f6"/>
+  </g>
+</svg>

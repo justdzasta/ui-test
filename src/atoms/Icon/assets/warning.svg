@@ -1,0 +1,9 @@
+<svg id="warnings_red" xmlns="http://www.w3.org/2000/svg" width="12.893" height="11.414" viewBox="0 0 12.893 11.414">
+  <g id="grid">
+    <path id="Path_2241" data-name="Path 2241" d="M7.479,3.463,1.958,13.025a.926.926,0,0,0,.8,1.388H13.8a.926.926,0,0,0,.8-1.388L9.082,3.463a.925.925,0,0,0-1.6,0Z" transform="translate(-1.834 -3)" fill="#f66"/>
+  </g>
+  <g id="trim_area" transform="translate(5.759 2.727)">
+    <circle id="Ellipse_62" data-name="Ellipse 62" cx="0.687" cy="0.687" r="0.687" transform="translate(0 5.791)" fill="#fff"/>
+    <path id="Path_2242" data-name="Path 2242" d="M11.7,11.828a.525.525,0,0,1-.525-.525V7.826a.525.525,0,1,1,1.051,0V11.3A.525.525,0,0,1,11.7,11.828Z" transform="translate(-11.01 -7.301)" fill="#fff"/>
+  </g>
+</svg>

@@ -1,0 +1,44 @@
+{
+  "files": [
+    "./src/index.ts"
+  ],
+  "include": [
+    "./src"
+  ],
+  "compilerOptions": {
+    "outDir": "./dist",
+    "target": "es5",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "declaration": true,
+    "importHelpers": true,
+    "sourceMap": true,
+    "declarationMap": true,
+    "jsx": "react",
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "downlevelIteration": true,
+    "newLine": "lf",
+    "strict": true,
+    "noEmit": false,
+    "noEmitOnError": true,
+    "baseUrl": ".",
+    "lib": [
+      "dom",
+      "esnext"
+    ],
+    "paths": {
+      "tslib" : ["node_modules/tslib/tslib.d.ts"]
+    }
+  },
+  "exclude": [
+    "node_modules",
+    "**/*.spec.ts",
+    "**/*.spec.tsx",
+    "**/*.fixture.ts",
+    "**/*.fixture.tsx",
+    "**/*.stories.tsx",
+    "./src/utils"
+  ],
+  "types": ["resize-observer"]
+}

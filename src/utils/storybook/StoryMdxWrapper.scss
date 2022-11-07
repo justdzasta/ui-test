@@ -1,0 +1,9 @@
+.def {
+    display: flex;
+    flex-direction: row;
+    margin: 1rem 0;
+
+    > *  {
+        margin: 0 0.25rem;
+    }
+}

@@ -1,0 +1,191 @@
+
+.story-row {
+    display: block;
+    width: 100%;
+    line-height: 16px;
+    color: var(--txt-contrast)
+}
+
+.root {
+    &.pro-dark {
+        // LAYOUT
+        --ui-container-bg: #ffffff;
+        --ui-container-bg-low: #f6fafc;
+        --ui-container-bg-bottom: #f2f8fa;
+        --ui-bg-high: #ecf2f4;
+        --ui-bg: #d2d6d8;
+
+        --ui-border-bright: #ffffff;
+        --ui-border: #ffffff;
+        --ui-border-rgba: rgba(50, 54, 56, 0.2);
+        --ui-border-dark: #ffffff;
+
+        --ui-divider-bright: #e6ecee;
+        --ui-divider: #dce2e4;
+        --ui-divider-dark: #c8ced0;
+        --ui-scroll: #b4b8ba;
+        --ui-scroll-bg: #969c9e;
+        --ui-shadow: #000000;
+        --ui-dialog-mask: rgba(0, 0, 0, 0.6);
+        --ui-mask: rgba(236, 240, 242, 0.6);
+        --ui-scroll-bg: #e0e0e0;
+        --ui-placeholder: #efefef;
+
+        // TYPOGRAPHY
+        --txt-primary: #323638;
+        --txt-secondary: #64686a;
+        --txt-lighter: #646a6c;
+        --txt-tertiary: #969a9c;
+        --txt-contrast: #14181a;
+        --txt-on-top: #ffffff;
+
+        // BUTTONS/INTERACTIONS
+        --btn-primary: #2aa5b5;
+        --btn-primary-hover: #0994a8;
+        --btn-primary-active: #026f7f;
+        --btn-secondary: #ecf2f4;
+        --btn-secondary-hover: #e6eaec;
+        --btn-secondary-active: #dce2e4;
+        --btn-outline-border: #2aa5b5;
+        --btn-outline-bg-hover: #d4edf0;
+        --btn-outline-bg-active: #afe3eb;
+        --btn-outline-secondary-border: #aaaeb0;
+        --btn-outline-secondary-bg-hover: #d4edf0;
+        --btn-outline-secondary-bg-active: #afe3eb;
+        --btn-txt: #2aa5b5;
+        --btn-txt-hover: #0994a8;
+        --btn-txt-active: #026f7f;
+        --btn-txt-secondary: #969a9c;
+        --btn-txt-secondary-hover: #e6eaec;
+        --btn-txt-secondary-active: #dce2e4;
+        --btn-ui-danger: #ff6666;
+        --btn-ui-danger-bg: #ffe8e8;
+        --btn-ui-danger-hover: #d54c4c;
+        --btn-ui-danger-active: #b73232;
+        --btn-ui-live: #e61919;
+        --btn-ui-live-bg: #fbdddd;
+        --btn-ui-live-hover: #bc0000;
+        --btn-ui-live-active: #9a0000;
+
+        //INTERACTIONS (menu / list)
+        --int-active: #2aa5b5;
+        --int-active-bg: rgba(42, 165, 181, 0.08);
+        --int-hover: rgba(175, 227, 235, 0.15);
+        --int-tooltip: rgba(40, 44, 46, 0.9);
+
+        // FORMS
+        --inp-bg: #ffffff;
+        --inp-bg-disabled: rgba(255, 255, 255, 0.4);
+        --inp-border: #c8ced0;
+        --inp-border-disabled: rgba(236, 240, 242, 0.4);
+        --inp-border-active: #969a9c;
+        --inp-addon: #969a9c;
+        --inp-addon-bg: #ecf2f4;
+        --inp-border-inline-active: #77cedb;
+
+        // SEMANTIC COLOURS
+        --ui-info: #3e8acd;
+        --ui-info-bg: #e2eef8;
+        --ui-success: #77b84b;
+        --ui-success-bg: #ebf4e4;
+        --ui-warning: #fea63e;
+        --ui-warning-bg: #fff2e2;
+        --ui-danger: #ff6666;
+        --ui-danger-bg: #ffe8e8;
+        --ui-live: #e61919;
+        --ui-live-bg: #fbdddd;
+        --ui-info-secondary: #a8adaf;
+        --ui-info-secondary-bg: #eff0f1;
+    }
+
+    &.pro-light {
+        // LAYOUT
+        --ui-container-bg: #323638;
+        --ui-container-bg-low: #2d3133;
+        --ui-container-bg-bottom: #282c2e;
+        --ui-bg-high: #1e2224;
+        --ui-bg: #14181a;
+
+        --ui-border-bright: #3c4042;
+        --ui-border: #323638;
+        --ui-border-rgba: rgba(220, 224, 226, 0.3);
+        --ui-border-dark: #282c2e;
+
+        --ui-divider-bright: #64686a;
+        --ui-divider: #464c4e;
+        --ui-divider-dark: #323638;
+        --ui-scroll: #787c7e;
+        --ui-scroll-bg: #3c4244;
+        --ui-shadow: #000000;
+        --ui-dialog-mask: rgba(0, 0, 0, 0.6);
+        --ui-mask: rgba(20, 24, 26, 0.6);
+        --ui-scroll-bg: #303436;
+        --ui-placeholder: #969a9c;
+
+        // TYPOGRAPHY
+        --txt-primary: #dce0e2;
+        --txt-lighter: #646a6c;
+        --txt-secondary: #aaaeb0;
+        --txt-tertiary: #969a9c;
+        --txt-contrast: #ecf2f4;
+        --txt-on-top: #ffffff;
+
+        // BUTTONS/INTERACTIONS
+        --btn-primary: #0994a8;
+        --btn-primary-hover: #026f7f;
+        --btn-primary-active: #005460;
+        --btn-secondary: #3c4042;
+        --btn-secondary-hover: #464a4c;
+        --btn-secondary-active: #282c2e;
+        --btn-outline-border: #2aa5b5;
+        --btn-outline-bg-hover: #005460;
+        --btn-outline-bg-active: #026f7f;
+        --btn-outline-secondary-border: #2aa5b5;
+        --btn-outline-secondary-bg-hover: #005460;
+        --btn-outline-secondary-bg-active: #026f7f;
+        --btn-txt: #0994a8;
+        --btn-txt-hover: #026f7f;
+        --btn-txt-active: #005460;
+        --btn-txt-secondary: #969a9c;
+        --btn-txt-secondary-hover: #464a4c;
+        --btn-txt-secondary-active: #282c2e;
+        --btn-ui-danger: #d66363;
+        --btn-ui-danger-bg: #4b3d3f;
+        --btn-ui-danger-hover: #b53d3d;
+        --btn-ui-danger-active: #9e2c2c;
+        --btn-ui-live: #bf4848;
+        --btn-ui-live-bg: #48383a;
+        --btn-ui-live-hover: #9b2c2c;
+        --btn-ui-live-active: #861c1c;
+
+        //INTERACTIONS (menu / list)
+        --int-active: #4bb7c6;
+        --int-active-bg: rgba(9, 148, 168, 0.15);
+        --int-hover: rgba(2, 111, 127, 0.15);
+        --int-tooltip: rgba(24, 30, 32, 0.9);
+
+        // FORMS
+        --inp-bg: #323638;
+        --inp-bg-disabled: #282c2e;
+        --inp-border: #464c4e;
+        --inp-border-disabled: #323638;
+        --inp-border-active: #969a9c;
+        --inp-addon: #969a9c;
+        --inp-addon-bg: #3c4042;
+        --inp-border-inline-active: #2aa5b5;
+
+        // SEMANTIC COLOURS
+        --ui-info: #65a2d7;
+        --ui-info-bg: #2b3a46;
+        --ui-success: #77b84b;
+        --ui-success-bg: #3d4a3b;
+        --ui-warning: #c98738;
+        --ui-warning-bg: #494238;
+        --ui-danger: #d66363;
+        --ui-danger-bg: #4b3d3f;
+        --ui-live: #bf4848;
+        --ui-live-bg: #48383a;
+        --ui-info-secondary: #969a9c;
+        --ui-info-secondary-bg: #3c4244;
+    }
+}
