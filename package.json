@@ -24,11 +24,12 @@
         "@types/react-dom": "^18.0.6",
         "@types/tether": "^1.4.6",
         "babel-loader": "^8.2.5",
-        "chromatic": "^6.10.2",
+        "chromatic": "^6.11.4",
         "html-webpack-plugin": "^5.5.0",
         "husky": "^8.0.1",
         "sass": "^1.54.8",
         "sass-loader": "^10.1.1",
+        "storybook-addon-designs": "^6.3.1",
         "svg-inline-loader": "^0.8.2",
         "ts-loader": "^9.3.1",
         "tslib": "^2.4.0",
@@ -36,6 +37,8 @@
         "webpack-cli": "^4.10.0"
     },
     "dependencies": {
+        "@figspec/components": "^1.0.1",
+        "@figspec/react": "^1.0.3",
         "classnames": "^2.3.1",
         "react": "^18.2.0",
         "react-dom": "^18.2.0",

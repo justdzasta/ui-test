@@ -39,11 +39,21 @@ export const MainButtonGroupWithIcon = () => {
     );
 };
 
-export const MainIconButtonGroup = () => {
-    return (
-        <ButtonsGroup>
-            <ButtonGroup icon="list"></ButtonGroup>
-            <ButtonGroup icon="grid"></ButtonGroup>
-        </ButtonsGroup>
-    );
-};
+// export const MainIconButtonGroup = () => {
+//     return (
+//         <ButtonsGroup>
+//             <ButtonGroup icon="list"></ButtonGroup>
+//             <ButtonGroup icon="grid"></ButtonGroup>
+//         </ButtonsGroup>
+//     );
+// };
+
+export const MainIconButtonGroup = () => <MainIconButtonGroup />
+
+MainIconButtonGroup.parameters = {
+  design: {
+    type: 'figspec',
+    url: 'https://www.figma.com/file/r0r0P6pWQ3G191PUrygq2r/Untitled?node-id=1%3A2',
+    accessToken: 'figd_zl5tokX0OQ5D8jdmXzQtUjuoCqsvZ_FWdg59vzjF',
+  },
+}
