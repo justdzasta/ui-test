@@ -15,6 +15,6 @@ export const ButtonWithLoadingExample = () => {
 ButtonWithLoadingExample.parameters = {
   design: {
     type: "figma",
-    url: "https://www.figma.com/file/r0r0P6pWQ3G191PUrygq2r/Untitled?node-id=1%3A2"
+    url: "https://www.figma.com/file/r0r0P6pWQ3G191PUrygq2r/Untitled?node-id=0%3A1"
   }
 }
